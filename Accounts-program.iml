@@ -6,8 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/tools" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/libs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/res" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
   </component>
 </module>
