@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZhangWuDao.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZhangWuDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Accounts-program/src/dao/ZhangWuDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="11">
+              <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,24 +95,30 @@
       <file leaf-file-name="ZhangWuService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Accounts-program/src/service/ZhangWuService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="217">
+              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Accounts-program/src/view/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+            <state relative-caret-position="265">
+              <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,15 +158,15 @@
         <option value="$PROJECT_DIR$/../Accounts-program/src/tools/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/../Accounts-program/src/domain/ZhangWu.java" />
         <option value="$PROJECT_DIR$/../Accounts-program/src/app/MainApp.java" />
-        <option value="$PROJECT_DIR$/../Accounts-program/src/view/MainView.java" />
         <option value="$PROJECT_DIR$/../Accounts-program/src/service/ZhangWuService.java" />
         <option value="$PROJECT_DIR$/../Accounts-program/src/dao/ZhangWuDao.java" />
+        <option value="$PROJECT_DIR$/../Accounts-program/src/view/MainView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="360" />
-    <option name="y" value="109" />
+    <option name="x" value="355" />
+    <option name="y" value="101" />
     <option name="width" value="1498" />
     <option name="height" value="876" />
   </component>
@@ -572,11 +578,19 @@
       <option name="project" value="LOCAL" />
       <updated>1519043741903</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="完成了编辑账务功能.">
+      <created>1519045451319</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1519045451319</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="360" y="109" width="1498" height="876" extended-state="0" />
+    <frame x="355" y="101" width="1498" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -587,7 +601,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16689098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43876177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -617,7 +631,8 @@
     </ignored-roots>
     <MESSAGE value="some changes." />
     <MESSAGE value="完成了添加账务功能." />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了添加账务功能." />
+    <MESSAGE value="完成了编辑账务功能." />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了编辑账务功能." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -705,34 +720,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Accounts-program/src/view/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Accounts-program/src/service/ZhangWuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="217">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Accounts-program/src/dao/ZhangWuDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="11">
+          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Accounts-program/src/view/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

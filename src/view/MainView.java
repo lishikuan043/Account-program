@@ -3,6 +3,7 @@ package view;
 import domain.ZhangWu;
 import service.ZhangWuService;
 
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -44,10 +45,54 @@ public class MainView {
     }
 
     private void selectZhangWu() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("1.查询所有　2.按条件查询");
+        int num = scanner.nextInt();
+        switch (num) {
+            case 1:
+                selectAll();
+                break;
+            case 2:
+                select();
+                break;
+            default:
+                System.out.println("输入错误！");
+        }
+    }
+
+    private void select() {
+        Scanner in = new Scanner(System.in);
+        System.out.print("请输入查询起始时间：");
+        String start = in.next();
+        System.out.print("请输入查询结束时间：");
+        String end = in.next();
+        List<ZhangWu> zhangWuList = zhangWuService.select(start,end);
+        print(zhangWuList);
+    }
+
+    private void selectAll() {
+        List<ZhangWu> zhangWuList = zhangWuService.selectAll();
+        print(zhangWuList);
+    }
+
+    private void print(List<ZhangWu> zhangWuList) {
+        System.out.println("ID\t\t\t类别\t\t账户\t\t金额\t\t时间\t\t说明");
+        for (ZhangWu zw : zhangWuList) {
+            System.out.println(zw.getZwid() + "\t\t\t" + zw.getFlname() + "\t\t"
+                    + zw.getZhanghu() + "\t\t" + zw.getMoney() + "\t\t"
+                    + zw.getCreatetime() + "\t\t" + zw.getDescription());
+        }
     }
 
     private void deleteZhangWu() {
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入需要修改账务编号：");
+        int num = zhangWuService.deleteZhangWu(scanner.nextInt());
+        if (num == 1) {
+            System.out.println("账务删除成功！");
+        } else {
+            System.out.println("账务删除失败！");
+        }
     }
 
     private void editZhangWu() {
