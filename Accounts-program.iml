@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../Accounts-program">
       <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/tools" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
