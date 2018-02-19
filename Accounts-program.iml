@@ -2,11 +2,9 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../Accounts-program">
-      <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/tools" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/libs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Accounts-program/res" type="java-resource" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
