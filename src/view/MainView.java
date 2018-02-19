@@ -51,6 +51,26 @@ public class MainView {
     }
 
     private void editZhangWu() {
+        Scanner scanner = new Scanner(System.in);
+        ZhangWu zw = new ZhangWu();
+        System.out.println("请输入需要修改账务编号：");
+        zw.setZwid(scanner.nextInt());
+        System.out.println("请输入分类名称：");
+        zw.setFlname(scanner.next());
+        System.out.println("请输入账户名称：");
+        zw.setZhanghu(scanner.next());
+        System.out.println("请输入金额：");
+        zw.setMoney(scanner.nextDouble());
+        System.out.println("请输入创建时间：");
+        zw.setCreatetime(scanner.next());
+        System.out.println("请输入说明：");
+        zw.setDescription(scanner.next());
+        int num = zhangWuService.editZhangWu(zw);
+        if (num == 1) {
+            System.out.println("账务修改成功！");
+        } else {
+            System.out.println("账务修改失败！");
+        }
     }
 
     private void addZhangWu() {

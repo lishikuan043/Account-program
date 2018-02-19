@@ -13,4 +13,8 @@ public class ZhangWuService {
     public int addZhangWu(ZhangWu zw) {
         return zhangWuDao.addZhangWu(zw);
     }
+
+    public int editZhangWu(ZhangWu zw) {
+        return zhangWuDao.editZhangWu(zw);
+    }
 }

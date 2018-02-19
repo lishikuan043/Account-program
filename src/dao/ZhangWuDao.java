@@ -24,4 +24,16 @@ public class ZhangWuDao {
         }
         return line;
     }
+
+    public int editZhangWu(ZhangWu zw) {
+        String sql = "UPDATE gjp_zhangwu SET flname=?, money=?,zhangHu=?,createtime=?,description=? WHERE zwid=?";
+        Object[] param = {zw.getFlname(),zw.getMoney(),zw.getZhanghu(),zw.getCreatetime(),zw.getDescription(),zw.getZwid()};
+        int line = 0;
+        try {
+            line = queryRunner.update(sql,param);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return line;
+    }
 }
